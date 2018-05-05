@@ -1,0 +1,52 @@
+body {
+  font-family: 'Tangerine', serif;
+  background-color: #615F7D;
+  font-size: 20px;
+  margin: 0;
+  padding: 0; }
+
+.text-center {
+  color: #fff;
+  text-align: center; }
+
+#cityDiv {
+  width: 60%;
+  margin: auto;
+  text-align: center; }
+
+input[type='text'] {
+  height: 40px;
+  font-size: 20px; }
+
+#submitCity {
+  height: 40px;
+  font-weight: bold; }
+
+.btn {
+  color: #fff;
+  color: #615F7D;
+  background-color: #82CA9C; }
+
+#errorCity {
+  width: 50%;
+  margin: auto;
+  text-align: center; }
+
+#showWeather {
+  width: 60%;
+  margin: auto;
+  background-color: #82CA9C;
+  color: white;
+  border-radius: 25px; }
+  #showWeather h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+    color: #615F7D; }
+  #showWeather h3 {
+    padding-left: 40px; }
+  #showWeather h3:last-child {
+    padding-bottom: 30px; }
+
+/*# sourceMappingURL=main.css.map */
