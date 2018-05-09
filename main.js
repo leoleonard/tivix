@@ -13,9 +13,9 @@ function getWeather(){
     if(city != ''){
         
         $.ajax({
-           url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + "&units=metric" + "&APPID=4766cf4d60b2d00cc98b468313914748",
+           url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric' + '&APPID=c10bb3bd22f90d636baa008b1529ee25',
             type: "GET",
-            dataType: "jsonp",
+            dataType: "json",
             success: function(data){
                 var widget = showResults(data)
                 
